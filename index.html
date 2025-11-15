@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your Favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="spotify-logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Best of NCS- No Copyright Sounds</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1" >
+                    <span class="songName">Let me love you</span>
+                    <span class="songlistplay">
+                    <span class="timestamp">03:26 <i class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="2" >
+                    <span class="songName">Harley in Hawaii</span>
+                    <span class="songlistplay">
+                    <span class="timestamp">03:14 <i class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="3" >
+                    <span class="songName">Faded</span>
+                    <span class="songlistplay">
+                    <span class="timestamp">03:30 <i class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="4" >
+                    <span class="songName">Middle of the night</span>
+                    <span class="songlistplay">
+                    <span class="timestamp">03:04 <i class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="5" >
+                    <span class="songName">Let me down slowly</span>
+                    <span class="songlistplay">
+                    <span class="timestamp">02:49 <i class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="6" >
+                    <span class="songName">Alone</span>
+                    <span class="songlistplay">
+                    <span class="timestamp">02:59 <i class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="7" >
+                    <span class="songName">Gasolina</span>
+                    <span class="songlistplay">
+                    <span class="timestamp">3:16 <i class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="8" >
+                    <span class="songName">Night Changes</span>
+                    <span class="songlistplay">
+                    <span class="timestamp">03:47 <i class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="9" >
+                    <span class="songName">One Kiss</span>
+                    <span class="songlistplay">
+                    <span class="timestamp">02:39 <i class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="10" >
+                    <span class="songName">Love your voice</span>
+                    <span class="songlistplay">
+                    <span class="timestamp">02:30 <i class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="bottom">
+            <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100"> 
+            <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fa-solid fa-3x fa-step-backward" id="previous"></i>
+            <i class="fa-solid fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="gif2.gif" width="39px" alt="" id="gif"> <span id="masterSongName"></span> 
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/159567921e.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
