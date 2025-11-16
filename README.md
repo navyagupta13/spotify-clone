@@ -1,5 +1,5 @@
 🎵 Spotify Clone
-
+<br>
 A front-end Spotify clone built using HTML, CSS, and JavaScript.  
 It mimics the Spotify UI with a custom playlist, cover images, and interactive audio controls.
 
